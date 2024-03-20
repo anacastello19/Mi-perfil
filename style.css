@@ -15,9 +15,8 @@ img:hover {
 section{
     border: #8c6b0933 solid;
     text-align: center;
-    width: 90%;
     height: 230px;
-    padding: 1% 1%;
+    padding: 5% 1%;
     margin: 1% 5%;
 }
 
@@ -30,7 +29,8 @@ section{
     margin: 2% 37%;
     text-align: center;
     background: black;
-    color: #ffff;
+    color: #ffff
+    ;
     border-radius: 0% 30% ;
     display: block;
     text-decoration: none;
@@ -47,21 +47,33 @@ section{
         margin-top:15% ;
     }
     .item{
-        margin: 6% 15%;
+        margin: 6% 15% auto;
     }
 
 }
-@media screen and (min-width: 481px) and (max-width:990px){
+@media screen and (min-width: 481px) and (max-width:800px){
     img{
+        width: 200px;
+    }
+    section{
+        padding-top: 2%;
+    }
+    .item{
+        margin: 5% auto;
+    }
+}
+@media screen and (min-width: 801px) and (max-width:990px){
+    img{
+        margin-top: 1%;
         width: 200px;
     }
     
     section {
-        margin-top: 10%;
+        height: 5%;
     }
     .item{
         text-align: center;
-        margin: 6% 25%;
+        margin: 3% 32%;
     }
 }
     

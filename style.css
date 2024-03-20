@@ -9,6 +9,9 @@ img{
     border-radius: 20% 0% ;
     box-shadow: 5px 3px 10px #d5c29e98;
 }
+img:hover {
+    cursor: none;
+}
 section{
     border: #8c6b0933 solid;
     text-align: center;
@@ -36,3 +39,29 @@ section{
 .item :hover{
     cursor: pointer #F3E3D3;
 }
+@media screen and (max-width: 481px){
+    img{
+        width: 200px;
+    }
+    section{
+        margin-top:15% ;
+    }
+    .item{
+        margin: 6% 15%;
+    }
+
+}
+@media screen and (min-width: 481px) and (max-width:990px){
+    img{
+        width: 200px;
+    }
+    
+    section {
+        margin-top: 10%;
+    }
+    .item{
+        text-align: center;
+        margin: 6% 25%;
+    }
+}
+    
